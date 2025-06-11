@@ -1,8 +1,17 @@
 {
-  "devDependencies": {
-    "vitest": "^3.2.3"
+  "name": "cdn-file-service",
+  "version": "1.0.0",
+  "description": "Secure CDN file serving application",
+  "main": "src/cdn-config.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
-  "dependencies": {
-    "path": "^0.12.7"
-  }
+  "keywords": ["cdn", "file-service", "security"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "latest"
+  },
+  "dependencies": {}
 }
