@@ -2,6 +2,7 @@
   "name": "cdn-file-service",
   "version": "1.0.0",
   "description": "Secure CDN file serving application",
+  "type": "module",
   "main": "src/cdn-config.js",
   "scripts": {
     "test": "vitest run",
