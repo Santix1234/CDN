@@ -1,7 +1,7 @@
-const { describe, it, expect } = require('vitest');
-const fs = require('fs');
-const path = require('path');
-const CdnConfig = require('../src/cdn-config');
+import { describe, it, expect, beforeAll, afterAll } from 'vitest';
+import fs from 'fs';
+import path from 'path';
+import CdnConfig from '../src/cdn-config.js';
 
 describe('CdnConfig', () => {
   const testCdnDir = path.resolve('./test-cdn');
