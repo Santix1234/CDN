@@ -1,5 +1,5 @@
-const path = require('path');
-const fs = require('fs');
+import path from 'path';
+import fs from 'fs';
 
 /**
  * CDN Configuration Module
@@ -66,4 +66,4 @@ class CdnConfig {
   }
 }
 
-module.exports = CdnConfig;
+export default CdnConfig;
